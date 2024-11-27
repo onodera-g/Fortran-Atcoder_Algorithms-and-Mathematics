@@ -9,6 +9,7 @@ program Shortest_Path_1
     ! current(:) : 隣接リスト構築時の各頂点の現在の挿入位置を追跡する配列
     ! distance(:): BFSにおける各頂点への最短距離を保持する配列
 
+    ! この問題では、CSR形式で無向グラフを構築しています。
     implicit none
     integer :: N, M
     integer, allocatable :: A(:), B(:)
