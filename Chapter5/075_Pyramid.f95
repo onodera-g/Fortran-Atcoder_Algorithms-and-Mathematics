@@ -39,7 +39,7 @@ program Pyramid
         end if
     end do
 
-    ! 結果出力
+    ! 結果の出力
     print *, result
 
 contains
